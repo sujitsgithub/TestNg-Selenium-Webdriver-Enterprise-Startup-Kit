@@ -1,0 +1,17 @@
+{"locators": [{
+"locatorName":"userName",
+ "locatorType": "id"
+
+},{
+"locatorName":"password",
+ "locatorType": "id"
+
+},{
+"locatorName":"//button[@class='cgc-btn cgc-btn--primary btn-block btn']",
+ "locatorType": "xpath"
+},{
+"locatorName":"//label[contains(text(),'Username')]",
+ "locatorType": "xpath"
+}
+]
+}

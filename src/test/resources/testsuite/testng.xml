@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Practice Test Suite" parallel="none" verbose="8">
+ 
+  <test name="Chrome browser Test">
+  <parameter name="browserType" value="CHROME"></parameter>
+  <classes>
+ 
+     <class name="com.pms.test.login.VanLoginTest"></class>
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
